@@ -21,6 +21,7 @@ public:
         FILEFORMAT_DAE,
         FILEFORMAT_FBX,
         FILEFORMAT_TTF,
+        FILEFORMAT_OTF,
         FILEFORMAT_GPB,
         FILEFORMAT_PNG,
         FILEFORMAT_RAW

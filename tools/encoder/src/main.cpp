@@ -112,6 +112,7 @@ int main(int argc, const char** argv)
             break;
         }
     case EncoderArguments::FILEFORMAT_TTF:
+    case EncoderArguments::FILEFORMAT_OTF:
         {
             std::vector<unsigned int> fontSizes = arguments.getFontSizes();
             
