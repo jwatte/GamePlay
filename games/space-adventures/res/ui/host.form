@@ -1,0 +1,99 @@
+form setup
+{
+    layout = LAYOUT_ABSOLUTE
+    batchingEnabled = false
+    autoWidth = true
+    autoHeight = true
+
+    label title
+    {
+        position = 5%, 3%
+        text = Create New Game
+        textColor = #60A010FF
+        fontSize = 96
+        font = res/ui/big.gpb
+    }
+
+    label nameLabel
+    {
+        text = Name:
+        position = 5%, 20%
+        width = 10%
+        height = 8%
+        font = res/ui/big.gpb
+        fontSize = 36
+    }
+
+    textBox nameText
+    {
+        text = Lost In Space
+        position = 15%, 20%
+        width = 30%
+        height = 8%
+        font = res/ui/little.gpb
+        fontSize = 36
+    }
+
+    slider difficultySlider
+    {
+        text = Difficulty
+        width = 20%
+        height = 8%
+        position = 50%, 20%
+        min = 0
+        max = 10
+        value = 1
+        step = 1
+        textAlignment = ALIGN_TOP_HCENTER
+        valueTextVisible = true
+        valueTextAlignment = ALIGN_BOTTOM_HCENTER
+        valueTextPrecision = 0
+        font = res/ui/big.gpb
+        fontSize = 16
+    }
+
+    slider clutterSlider
+    {
+        text = Clutter
+        width = 20%
+        height = 8%
+        position = 75%, 20%
+        min = 0
+        max = 10
+        value = 1
+        step = 1
+        textAlignment = ALIGN_TOP_HCENTER
+        valueTextVisible = true
+        valueTextAlignment = ALIGN_BOTTOM_HCENTER
+        valueTextPrecision = 0
+        font = res/ui/big.gpb
+        fontSize = 16
+    }
+
+    container playerListContainer
+    {
+        style = Form
+        layout = LAYOUT_VERTICAL
+        width = 65%
+        height = 40%
+        position = 15%, 40%
+    }
+
+    button backButton
+    {
+        position = 4%, 90%
+        size = 10%, 8%
+        text = < Back
+        fontSize = 24
+        font = res/ui/big.gpb
+    }
+
+    button nextButton
+    {
+        position = 86%, 90%
+        size = 10%, 8%
+        text = Next >
+        fontSize = 24
+        font = res/ui/big.gpb
+    }
+}

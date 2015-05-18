@@ -1,0 +1,43 @@
+form setup
+{
+    layout = LAYOUT_ABSOLUTE
+    batchingEnabled = false
+    autoWidth = true
+    autoHeight = true
+
+    label title
+    {
+        position = 5%, 3%
+        text = New Game Setup
+        textColor = #60A010FF
+        fontSize = 96
+        font = res/ui/big.gpb
+    }
+
+    button joinButton
+    {
+        position = 15%, 30%
+        size = 30%, 15%
+        text = Join Game
+        fontSize = 48
+        font = res/ui/medium.gpb
+    }
+
+    button hostButton
+    {
+        position = 35%, 50%
+        size = 30%, 15%
+        text = Host Game
+        fontSize = 48
+        font = res/ui/medium.gpb
+    }
+
+    button backButton
+    {
+        position = 55%, 70%
+        size = 30%, 15%
+        text = Back
+        fontSize = 48
+        font = res/ui/medium.gpb
+    }
+}

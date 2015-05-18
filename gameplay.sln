@@ -1,7 +1,6 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Windows Desktop
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gameplay", "gameplay\gameplay.vcxproj", "{1032BA4B-57EB-4348-9E03-29DD63E80E4A}"
 EndProject
@@ -24,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample-racer", "samples\rac
 	ProjectSection(ProjectDependencies) = postProject
 		{1032BA4B-57EB-4348-9E03-29DD63E80E4A} = {1032BA4B-57EB-4348-9E03-29DD63E80E4A}
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "space-adventures", "games\space-adventures\space-adventures.vcxproj", "{30BEE126-8B04-4F96-84A1-30CBF8B3E491}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +63,12 @@ Global
 		{82522888-E09A-ED48-AD7D-247237B37B3A}.DebugMem|x64.Build.0 = DebugMem|x64
 		{82522888-E09A-ED48-AD7D-247237B37B3A}.Release|x64.ActiveCfg = Release|x64
 		{82522888-E09A-ED48-AD7D-247237B37B3A}.Release|x64.Build.0 = Release|x64
+		{30BEE126-8B04-4F96-84A1-30CBF8B3E491}.Debug|x64.ActiveCfg = Debug|x64
+		{30BEE126-8B04-4F96-84A1-30CBF8B3E491}.Debug|x64.Build.0 = Debug|x64
+		{30BEE126-8B04-4F96-84A1-30CBF8B3E491}.DebugMem|x64.ActiveCfg = DebugMem|x64
+		{30BEE126-8B04-4F96-84A1-30CBF8B3E491}.DebugMem|x64.Build.0 = DebugMem|x64
+		{30BEE126-8B04-4F96-84A1-30CBF8B3E491}.Release|x64.ActiveCfg = Release|x64
+		{30BEE126-8B04-4F96-84A1-30CBF8B3E491}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
